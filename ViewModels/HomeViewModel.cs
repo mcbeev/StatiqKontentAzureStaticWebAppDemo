@@ -1,3 +1,5 @@
+using System.Linq;
+
 namespace StatiqTutorial
 {
     public class HomeViewModel
@@ -5,6 +7,8 @@ namespace StatiqTutorial
         public string Title { get; private set; }
 
         public string Content { get; private set; }
+
+        public string HeroImageUrl { get; private set; }
 
         /// <summary>
         /// Contructor for transforming Home content item into the view model
@@ -14,6 +18,7 @@ namespace StatiqTutorial
         {
             Title = home.Title;
             Content = home.Content;
+            HeroImageUrl = home.HeroImage.First().Url;
         }
 
         public HomeViewModel(string title, string content)

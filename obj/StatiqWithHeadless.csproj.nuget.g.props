@@ -16,11 +16,11 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)statiq.app\1.0.0-beta.29\buildTransitive\netcoreapp3.1\Statiq.App.props" Condition="Exists('$(NuGetPackageRoot)statiq.app\1.0.0-beta.29\buildTransitive\netcoreapp3.1\Statiq.App.props')" />
-    <Import Project="$(NuGetPackageRoot)statiq.web\1.0.0-beta.14\buildTransitive\netcoreapp3.1\Statiq.Web.props" Condition="Exists('$(NuGetPackageRoot)statiq.web\1.0.0-beta.14\buildTransitive\netcoreapp3.1\Statiq.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)statiq.app\1.0.0-beta.49\buildTransitive\netcoreapp3.1\Statiq.App.props" Condition="Exists('$(NuGetPackageRoot)statiq.app\1.0.0-beta.49\buildTransitive\netcoreapp3.1\Statiq.App.props')" />
+    <Import Project="$(NuGetPackageRoot)statiq.web\1.0.0-beta.34\buildTransitive\netcoreapp3.1\Statiq.Web.props" Condition="Exists('$(NuGetPackageRoot)statiq.web\1.0.0-beta.34\buildTransitive\netcoreapp3.1\Statiq.Web.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\bmckeiver\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.6</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\bmckeiver\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\bmckeiver\.nuget\packages\microsoft.sourcelink.common\1.0.0</PkgMicrosoft_SourceLink_Common>
     <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\bmckeiver\.nuget\packages\microsoft.build.tasks.git\1.0.0</PkgMicrosoft_Build_Tasks_Git>
     <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\bmckeiver\.nuget\packages\microsoft.sourcelink.github\1.0.0</PkgMicrosoft_SourceLink_GitHub>

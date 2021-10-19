@@ -14,9 +14,11 @@ namespace StatiqTutorial
     {
         public const string Codename = "home";
         public const string ContentCodename = "content";
+        public const string HeroImageCodename = "hero_image";
         public const string TitleCodename = "title";
 
         public string Content { get; set; }
+        public IEnumerable<IAsset> HeroImage { get; set; }
         public IContentItemSystemAttributes System { get; set; }
         public string Title { get; set; }
     }
