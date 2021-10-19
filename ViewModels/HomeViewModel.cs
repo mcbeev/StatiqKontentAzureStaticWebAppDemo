@@ -11,6 +11,9 @@ namespace StatiqTutorial
         public string SourceDescription { get;set; }
 
         public string HeroImageUrl { get; private set; }
+        public int HeroImageHeight { get; private set; }
+
+        public int HeroImageWidth { get; private set; }
 
         /// <summary>
         /// Contructor for transforming Home content item into the view model
@@ -22,7 +25,10 @@ namespace StatiqTutorial
             Content = home.Content;
             if (home.HeroImage != null)
             {
-                HeroImageUrl = home.HeroImage.First().Url;
+                var kontentAsset = home.HeroImage.First();
+                HeroImageUrl = kontentAsset.Url;
+                HeroImageHeight = kontentAsset.Height;
+                HeroImageWidth = kontentAsset.Width;
             }
             SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent by Kentico</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index\">index</a> route.";
         }
@@ -31,6 +37,9 @@ namespace StatiqTutorial
         {
             Title = title;
             Content = content;
+            HeroImageUrl = "https://via.placeholder.com/150";
+            HeroImageHeight = 150;
+            HeroImageWidth = 150;            
             SourceDescription = "Content on this page is from local markdown file. This home page has its counterpart on <a href=\"/index-from-cms\">index-from-cms</a> route.";
         }
     }
