@@ -8,6 +8,8 @@ namespace StatiqTutorial
 
         public string Content { get; private set; }
 
+        public string SourceDescription { get;set; }
+
         public string HeroImageUrl { get; private set; }
 
         /// <summary>
@@ -18,13 +20,18 @@ namespace StatiqTutorial
         {
             Title = home.Title;
             Content = home.Content;
-            HeroImageUrl = home.HeroImage.First().Url;
+            if (home.HeroImage != null)
+            {
+                HeroImageUrl = home.HeroImage.First().Url;
+            }
+            SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent by Kentico</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index\">index</a> route.";
         }
 
         public HomeViewModel(string title, string content)
         {
             Title = title;
             Content = content;
+            SourceDescription = "Content on this page is from local markdown file. This home page has its counterpart on <a href=\"/index-from-cms\">index-from-cms</a> route.";
         }
     }
 }
