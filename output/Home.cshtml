@@ -1,0 +1,20 @@
+@model HomeViewModel
+
+<div>
+    @if (Model.Title != null)
+    {
+        <h1>
+            @Model.Title
+        </h1>
+    }
+    @if (Model.Content != null)
+    {
+        <p>
+            @Model.Content
+        </p>
+        <p><img width="@Model.HeroImageWidth" height="@Model.HeroImageHeight" src="@Model.HeroImageUrl"/></p>
+        <p>
+            @Html.Raw(Model.SourceDescription)
+        </p>
+    }
+</div>
