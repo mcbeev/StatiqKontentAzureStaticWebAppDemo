@@ -27,8 +27,8 @@
 
 <script>
     async function Message() {
-        let { text } = await( await fetch(`/api/getmessage`));
-        document.querySelector('#name').textContent = text;
+        const response = await fetch(`/api/getmessage`);
+        document.querySelector('#name').textContent = response.text();
     }
 </script>
                 </div>
