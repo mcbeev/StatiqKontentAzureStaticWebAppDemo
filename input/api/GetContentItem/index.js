@@ -6,7 +6,9 @@ module.exports = async function (context, req) {
     const codeName = (req.query.codeName || (req.body && req.body.codeName));
 
     const url = process.env.KontentDeliveryAPIEndpoint + process.env.KontentProjectID + "/items/"; 
-    
+
+    context.log("url:" + url);
+
     await fetch(url + codeName)
         .then(response => response.json())
         .then(response => context.res.json(response.item.elements.content.value)); 
