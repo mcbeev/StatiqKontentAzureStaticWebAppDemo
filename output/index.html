@@ -21,6 +21,16 @@
             Content on this page is from local markdown file. This home page has its counterpart on <a href="/index-from-cms">index-from-cms</a> route.
         </p>
 </div>
+
+<button onclick="Message()">Call API</button>
+<p>Dynamic content from the API: <b id="name">...</b></p>
+
+<script>
+    async function Message() {
+        let { text } = await( await fetch(`/api/message`)).json();
+        document.querySelector('#name').textContent = text;
+    }
+</script>
                 </div>
             </div>
         </div>
