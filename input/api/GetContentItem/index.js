@@ -9,6 +9,6 @@ module.exports = async function (context, req) {
     
     await fetch(url + codeName)
         .then(response => response.json())
-        .then(response => context.res.json(response.item.elements[0].value)); 
+        .then(response => context.res.json(response.item.elements.content.value)); 
     
 }
