@@ -48,7 +48,7 @@
     async function ContentItem() {
         let response = await fetch("/api/getcontentitem?codename="+ document.querySelector("#codename").value)
         let msg = await response.text();
-        document.querySelector("#testimonial").textContent = msg;
+        document.querySelector("#testimonial").innerHTML = msg;
     }
 </script>
                 </div>
