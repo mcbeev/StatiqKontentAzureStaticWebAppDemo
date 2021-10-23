@@ -19,13 +19,29 @@
     }
 </div>
 
-<button onclick="Message()">Call API</button>
-<p>Dynamic content from the API: <b id="name">...</b></p>
+<hr/>
+
+<div>
+    <button onclick="Message()">Call API</button>
+    <p>Dynamic content from the API: <b id="name">...</b></p>
+</div>
+
+<hr/>
+<div>
+    <button onclick="ContentItem()">Call Headless CMS API</button>
+    <p>Dynamic content from the Kontent Delivery API: <b id="testimonial">...</b></p>
+</div>
 
 <script>
     async function Message() {
         let response = await fetch("/api/getmessage?name=brian")
         let msg = await response.text();
         document.querySelector("#name").textContent = msg;
+    }
+
+    async function ContentItem() {
+        let response = await fetch("/api/getcontentitem?codename=onetug")
+        let msg = await response.text();
+        document.querySelector("#testimonial").textContent = msg;
     }
 </script>
