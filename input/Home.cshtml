@@ -28,8 +28,11 @@
 
 <hr/>
 <div>
+    <input name="codename" id="codename" type="text" value="onetug" />
     <button onclick="ContentItem()">Call Headless CMS API</button>
-    <p>Dynamic content from the Kontent Delivery API: <b id="testimonial">...</b></p>
+    <div>Dynamic content from the Kontent Delivery API:
+        <div id="testimonial">...</div>
+    </div>
 </div>
 
 <script>
@@ -40,7 +43,7 @@
     }
 
     async function ContentItem() {
-        let response = await fetch("/api/getcontentitem?codename=onetug")
+        let response = await fetch("/api/getcontentitem?codename="+ document.querySelector("#codename").value)
         let msg = await response.text();
         document.querySelector("#testimonial").textContent = msg;
     }
