@@ -22,14 +22,33 @@
         </p>
 </div>
 
-<button onclick="Message()">Call API</button>
-<p>Dynamic content from the API: <b id="name">...</b></p>
+<hr/>
+
+<div>
+    <button onclick="Message()">Call API</button>
+    <p>Dynamic content from the API: <b id="name">...</b></p>
+</div>
+
+<hr/>
+<div>
+    <input name="codename" id="codename" type="text" value="onetug" />
+    <button onclick="ContentItem()">Call Headless CMS API</button>
+    <div>Dynamic content from the Kontent Delivery API:
+        <div id="testimonial">...</div>
+    </div>
+</div>
 
 <script>
     async function Message() {
         let response = await fetch("/api/getmessage?name=brian")
         let msg = await response.text();
         document.querySelector("#name").textContent = msg;
+    }
+
+    async function ContentItem() {
+        let response = await fetch("/api/getcontentitem?codename="+ document.querySelector("#codename").value)
+        let msg = await response.text();
+        document.querySelector("#testimonial").innerHTML = msg;
     }
 </script>
                 </div>
