@@ -11,7 +11,7 @@
                     
 <div>
         <h1>
-            Hello Kontent Horizons from Statiq!
+            Hello ONETUG from Statiq, Kontent, and Azure Static Web Apps!
         </h1>
         <p>
             This is a root page of the statically generated site powered by Statiq. This page is rendered by Razor view template. Statiq Web is a powerful static website generation toolkit suitable for most use cases. It&#x27;s built on top of Statiq Framework, so you can always extend or customize it beyond those base capabilities as well. This is an example of how to render one single page.
@@ -21,6 +21,17 @@
             Content on this page is from local markdown file. This home page has its counterpart on <a href="/index-from-cms">index-from-cms</a> route.
         </p>
 </div>
+
+<button onclick="Message()">Call API</button>
+<p>Dynamic content from the API: <b id="name">...</b></p>
+
+<script>
+    async function Message() {
+        let response = await fetch("/api/getmessage?name=brian")
+        let msg = await response.text();
+        document.querySelector("#name").textContent = msg;
+    }
+</script>
                 </div>
             </div>
         </div>
