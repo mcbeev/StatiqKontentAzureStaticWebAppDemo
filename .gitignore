@@ -32,11 +32,9 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-*.suo
-*.user
 _ReSharper.*
-bin
-obj
+**/bin/*
+**/obj/*
 packages
 
 # Visual Studio 2015/2017 cache/options directory
