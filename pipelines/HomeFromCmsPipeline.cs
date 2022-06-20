@@ -12,8 +12,6 @@ namespace StatiqTutorial
     {
         public HomeFromCmsPipeline(IDeliveryClient client)
         {
-            Dependencies.AddRange(nameof(TestimonialsPipeline), nameof(HomeFromCmsPipeline));
-
             InputModules = new ModuleList
             {
                 new Kontent<Home>(client).WithQuery(
