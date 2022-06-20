@@ -1,3 +1,3 @@
-# Statiq Azure Static Web App
+# Statiq Kontent Azure Static Web App
 
-A demo of a static site built by Statiq, made dynamic by Kontent by Kentico, and hosted via Azure Static Web Apps to show off Jamstack in .NET
+Various demos of a static site built by [Statiq](https://www.statiq.dev/web), made dynamic by [Kontent by Kentico](https://kontent.ai), and hosted via [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview) to show off Jamstack in .NET
