@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,8 +11,8 @@
     <PackageReference Include="Kontent.Statiq" Version="1.0.0-*" />
     <PackageReference Include="Statiq.Web" Version="1.0.0-beta.17" /> -->
 
-    <PackageReference Include="Kontent.Statiq" Version="1.0.0-beta0013" />
-    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.34" />
+    <PackageReference Include="Kontent.Statiq" Version="2.0.0-beta0014" />
+    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.47" />
   </ItemGroup>
 
 </Project>

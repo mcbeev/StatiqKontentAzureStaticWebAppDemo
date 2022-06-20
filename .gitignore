@@ -29,7 +29,7 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
+[Ll]og/0
 [Ll]ogs/
 
 _ReSharper.*

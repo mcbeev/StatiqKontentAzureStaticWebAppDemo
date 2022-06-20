@@ -1,6 +1,6 @@
 ﻿using Kentico.Kontent.Delivery.Abstractions;
-using Kentico.Kontent.Delivery.Urls.QueryParameters;
-using Kentico.Kontent.Delivery.Urls.QueryParameters.Filters;
+using Kentico.Kontent.Urls.Delivery.QueryParameters.Filters;
+using Kentico.Kontent.Urls.Delivery.QueryParameters;
 using Kontent.Statiq;
 using Statiq.Common;
 using Statiq.Core;
@@ -12,6 +12,8 @@ namespace StatiqTutorial
     {
         public HomeFromCmsPipeline(IDeliveryClient client)
         {
+            Dependencies.AddRange(nameof(TestimonialsPipeline), nameof(HomeFromCmsPipeline));
+
             InputModules = new ModuleList
             {
                 new Kontent<Home>(client).WithQuery(
@@ -29,8 +31,8 @@ namespace StatiqTutorial
                     ),
 
                 new RenderRazor().WithModel(Config.FromDocument((document, context) =>
-                    new HomeViewModel(document.AsKontent<Home>()
-                ))),
+                    new HomeViewModel(document.AsKontent<Home>())
+                )),
             };
 
             OutputModules = new ModuleList {

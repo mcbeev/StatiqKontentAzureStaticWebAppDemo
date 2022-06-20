@@ -12,16 +12,16 @@ using Kentico.Kontent.Delivery.Abstractions;
 
 namespace StatiqTutorial
 {
-    public partial class Home
+    public partial class Testimonial
     {
-        public const string Codename = "home";
+        public const string Codename = "testimonial";
+        public const string AuthorCodename = "author";
         public const string ContentCodename = "content";
-        public const string HeroImageCodename = "hero_image";
-        public const string TitleCodename = "title";
+        public const string DateCodename = "date";
 
+        public string Author { get; set; }
         public string Content { get; set; }
-        public IEnumerable<IAsset> HeroImage { get; set; }
+        public DateTime? Date { get; set; }
         public IContentItemSystemAttributes System { get; set; }
-        public string Title { get; set; }
     }
 }

@@ -30,7 +30,7 @@ namespace StatiqTutorial
                 HeroImageHeight = kontentAsset.Height;
                 HeroImageWidth = kontentAsset.Width;
             }
-            SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent by Kentico</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index\">index</a> route.";
+            SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent by Kentico</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index.html\">index</a> route.";
         }
 
         public HomeViewModel(string title, string content)
@@ -40,7 +40,7 @@ namespace StatiqTutorial
             HeroImageUrl = "https://via.placeholder.com/150";
             HeroImageHeight = 150;
             HeroImageWidth = 150;            
-            SourceDescription = "Content on this page is from local markdown file. This home page has its counterpart on <a href=\"/index-from-cms\">index-from-cms</a> route.";
+            SourceDescription = "Content on this page is from local markdown file. This home page has its counterpart on <a href=\"/index-from-cms.html\">index-from-cms</a> route.";
         }
     }
 }
