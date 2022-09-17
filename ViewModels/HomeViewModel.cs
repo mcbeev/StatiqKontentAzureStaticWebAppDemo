@@ -30,7 +30,7 @@ namespace StatiqTutorial
                 HeroImageHeight = kontentAsset.Height;
                 HeroImageWidth = kontentAsset.Width;
             }
-            SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent by Kentico</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index.html\">index</a> route.";
+            SourceDescription = "Content on this page is fetched from <b><a href=\"https://kontent.ai\" target=\"_blank\">Kontent.ai</a></b> Headless CMS via API at build time. This home page has its counterpart on <a href=\"/index.html\">index</a> route.";
         }
 
         public HomeViewModel(string title, string content)

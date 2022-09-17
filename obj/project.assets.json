@@ -2146,7 +2146,7 @@
           "lib/net6.0/Spectre.Console.dll": {}
         }
       },
-      "Statiq.App/1.0.0-beta.60": {
+      "Statiq.App/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.1.0",
@@ -2160,9 +2160,9 @@
           "NetEscapades.Configuration.Yaml": "2.0.1",
           "NetEscapades.Extensions.Logging.RollingFile": "2.2.0",
           "Spectre.Console": "0.43.0",
-          "Statiq.Common": "1.0.0-beta.60",
-          "Statiq.Core": "1.0.0-beta.60",
-          "Statiq.Testing": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62",
+          "Statiq.Core": "1.0.0-beta.62",
+          "Statiq.Testing": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.App.dll": {}
@@ -2171,10 +2171,10 @@
           "lib/netcoreapp3.1/Statiq.App.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/Statiq.App.props": {}
+          "buildTransitive/netcoreapp3.1/Statiq.App.targets": {}
         }
       },
-      "Statiq.Common/1.0.0-beta.60": {
+      "Statiq.Common/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "0.16.1",
@@ -2193,7 +2193,7 @@
           "lib/netcoreapp3.1/Statiq.Common.dll": {}
         }
       },
-      "Statiq.Core/1.0.0-beta.60": {
+      "Statiq.Core/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "JSPool": "2.0.1",
@@ -2205,7 +2205,7 @@
           "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
           "Polly": "7.1.1",
           "SemanticVersioning": "1.2.2",
-          "Statiq.Common": "1.0.0-beta.60",
+          "Statiq.Common": "1.0.0-beta.62",
           "System.Collections.Immutable": "5.0.0",
           "System.Linq.Async": "4.0.0"
         },
@@ -2216,10 +2216,10 @@
           "lib/netcoreapp3.1/Statiq.Core.dll": {}
         }
       },
-      "Statiq.Feeds/1.0.0-beta.60": {
+      "Statiq.Feeds/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Feeds.dll": {}
@@ -2228,11 +2228,11 @@
           "lib/netcoreapp3.1/Statiq.Feeds.dll": {}
         }
       },
-      "Statiq.Handlebars/1.0.0-beta.60": {
+      "Statiq.Handlebars/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "Handlebars.Net": "1.10.1",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Handlebars.dll": {}
@@ -2241,10 +2241,10 @@
           "lib/netcoreapp3.1/Statiq.Handlebars.dll": {}
         }
       },
-      "Statiq.Highlight/1.0.0-beta.60": {
+      "Statiq.Highlight/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Highlight.dll": {}
@@ -2253,10 +2253,10 @@
           "lib/netcoreapp3.1/Statiq.Highlight.dll": {}
         }
       },
-      "Statiq.Less/1.0.0-beta.60": {
+      "Statiq.Less/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
-          "Statiq.Common": "1.0.0-beta.60",
+          "Statiq.Common": "1.0.0-beta.62",
           "dotless.Core": "0.0.1"
         },
         "compile": {
@@ -2266,11 +2266,11 @@
           "lib/netcoreapp3.1/Statiq.Less.dll": {}
         }
       },
-      "Statiq.Lunr/1.0.0-beta.60": {
+      "Statiq.Lunr/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "LunrCore": "2.3.9",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Lunr.dll": {}
@@ -2279,11 +2279,11 @@
           "lib/netcoreapp3.1/Statiq.Lunr.dll": {}
         }
       },
-      "Statiq.Markdown/1.0.0-beta.60": {
+      "Statiq.Markdown/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "Markdig": "0.26.0",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Markdown.dll": {}
@@ -2292,10 +2292,10 @@
           "lib/netcoreapp3.1/Statiq.Markdown.dll": {}
         }
       },
-      "Statiq.Minification/1.0.0-beta.60": {
+      "Statiq.Minification/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
-          "Statiq.Common": "1.0.0-beta.60",
+          "Statiq.Common": "1.0.0-beta.62",
           "System.Linq.Async": "4.0.0",
           "WebMarkupMin.Core": "2.3.0"
         },
@@ -2306,7 +2306,7 @@
           "lib/netcoreapp3.1/Statiq.Minification.dll": {}
         }
       },
-      "Statiq.Razor/1.0.0-beta.60": {
+      "Statiq.Razor/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "3.1.15",
@@ -2316,7 +2316,7 @@
           "Microsoft.Extensions.DependencyInjection": "3.1.18",
           "Microsoft.Extensions.FileProviders.Composite": "3.1.18",
           "Microsoft.Extensions.FileProviders.Physical": "3.1.18",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Razor.dll": {}
@@ -2328,11 +2328,11 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Statiq.Sass/1.0.0-beta.60": {
+      "Statiq.Sass/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "SharpScss": "1.4.0",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Sass.dll": {}
@@ -2341,14 +2341,14 @@
           "lib/netcoreapp3.1/Statiq.Sass.dll": {}
         }
       },
-      "Statiq.Testing/1.0.0-beta.60": {
+      "Statiq.Testing/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.18",
           "Microsoft.Extensions.Logging": "3.1.18",
           "NUnit": "3.12.0",
           "Shouldly": "4.0.3",
-          "Statiq.Common": "1.0.0-beta.60",
+          "Statiq.Common": "1.0.0-beta.62",
           "System.Collections.Immutable": "5.0.0"
         },
         "compile": {
@@ -2358,28 +2358,28 @@
           "lib/netcoreapp3.1/Statiq.Testing.dll": {}
         }
       },
-      "Statiq.Web/1.0.0-beta.47": {
+      "Statiq.Web/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "Buildalyzer.Workspaces": "4.1.2",
-          "Statiq.App": "1.0.0-beta.60",
-          "Statiq.Common": "1.0.0-beta.60",
-          "Statiq.Core": "1.0.0-beta.60",
-          "Statiq.Feeds": "1.0.0-beta.60",
-          "Statiq.Handlebars": "1.0.0-beta.60",
-          "Statiq.Highlight": "1.0.0-beta.60",
-          "Statiq.Less": "1.0.0-beta.60",
-          "Statiq.Lunr": "1.0.0-beta.60",
-          "Statiq.Markdown": "1.0.0-beta.60",
-          "Statiq.Minification": "1.0.0-beta.60",
-          "Statiq.Razor": "1.0.0-beta.60",
-          "Statiq.Sass": "1.0.0-beta.60",
-          "Statiq.Web.Aws": "1.0.0-beta.47",
-          "Statiq.Web.Azure": "1.0.0-beta.47",
-          "Statiq.Web.GitHub": "1.0.0-beta.47",
-          "Statiq.Web.Hosting": "1.0.0-beta.47",
-          "Statiq.Web.Netlify": "1.0.0-beta.47",
-          "Statiq.Yaml": "1.0.0-beta.60"
+          "Statiq.App": "1.0.0-beta.62",
+          "Statiq.Common": "1.0.0-beta.62",
+          "Statiq.Core": "1.0.0-beta.62",
+          "Statiq.Feeds": "1.0.0-beta.62",
+          "Statiq.Handlebars": "1.0.0-beta.62",
+          "Statiq.Highlight": "1.0.0-beta.62",
+          "Statiq.Less": "1.0.0-beta.62",
+          "Statiq.Lunr": "1.0.0-beta.62",
+          "Statiq.Markdown": "1.0.0-beta.62",
+          "Statiq.Minification": "1.0.0-beta.62",
+          "Statiq.Razor": "1.0.0-beta.62",
+          "Statiq.Sass": "1.0.0-beta.62",
+          "Statiq.Web.Aws": "1.0.0-beta.49",
+          "Statiq.Web.Azure": "1.0.0-beta.49",
+          "Statiq.Web.GitHub": "1.0.0-beta.49",
+          "Statiq.Web.Hosting": "1.0.0-beta.49",
+          "Statiq.Web.Netlify": "1.0.0-beta.49",
+          "Statiq.Yaml": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.dll": {}
@@ -2388,14 +2388,14 @@
           "lib/netcoreapp3.1/Statiq.Web.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/Statiq.Web.props": {}
+          "buildTransitive/netcoreapp3.1/Statiq.Web.targets": {}
         }
       },
-      "Statiq.Web.Aws/1.0.0-beta.47": {
+      "Statiq.Web.Aws/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.Aws.dll": {}
@@ -2404,12 +2404,12 @@
           "lib/netcoreapp3.1/Statiq.Web.Aws.dll": {}
         }
       },
-      "Statiq.Web.Azure/1.0.0-beta.47": {
+      "Statiq.Web.Azure/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.Search": "10.1.0",
           "Polly": "7.1.1",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.Azure.dll": {}
@@ -2418,12 +2418,12 @@
           "lib/netcoreapp3.1/Statiq.Web.Azure.dll": {}
         }
       },
-      "Statiq.Web.GitHub/1.0.0-beta.47": {
+      "Statiq.Web.GitHub/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "Octokit": "0.46.0",
           "Polly": "7.1.1",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.GitHub.dll": {}
@@ -2432,13 +2432,13 @@
           "lib/netcoreapp3.1/Statiq.Web.GitHub.dll": {}
         }
       },
-      "Statiq.Web.Hosting/1.0.0-beta.47": {
+      "Statiq.Web.Hosting/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Composite": "3.0.0",
           "Microsoft.Extensions.FileProviders.Embedded": "3.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "3.0.0",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.Hosting.dll": {}
@@ -2450,11 +2450,11 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Statiq.Web.Netlify/1.0.0-beta.47": {
+      "Statiq.Web.Netlify/1.0.0-beta.49": {
         "type": "package",
         "dependencies": {
           "NetlifySharp": "1.1.0",
-          "Statiq.Common": "1.0.0-beta.60"
+          "Statiq.Common": "1.0.0-beta.62"
         },
         "compile": {
           "lib/netcoreapp3.1/Statiq.Web.Netlify.dll": {}
@@ -2463,10 +2463,10 @@
           "lib/netcoreapp3.1/Statiq.Web.Netlify.dll": {}
         }
       },
-      "Statiq.Yaml/1.0.0-beta.60": {
+      "Statiq.Yaml/1.0.0-beta.62": {
         "type": "package",
         "dependencies": {
-          "Statiq.Common": "1.0.0-beta.60",
+          "Statiq.Common": "1.0.0-beta.62",
           "YamlDotNet": "4.3.1"
         },
         "compile": {
@@ -7468,27 +7468,27 @@
         "spectre.console.nuspec"
       ]
     },
-    "Statiq.App/1.0.0-beta.60": {
-      "sha512": "SMw28P3mi+DH1xHAhY0ssmxyvsOn37kw7kskHx1jC9Y7+emferILnLVfvkZ5+tW+Wecut7HBY+Owuhv2ir0dfA==",
+    "Statiq.App/1.0.0-beta.62": {
+      "sha512": "XPmDI9IGjDKvBgl0UEwW5sqv7Ah3ypl1rtBRAHIPZtyH0WC0alsGxP0xrPCpY79Lq+UDCZmaRmTk0g+jDkA7qw==",
       "type": "package",
-      "path": "statiq.app/1.0.0-beta.60",
+      "path": "statiq.app/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
-        "build/netcoreapp3.1/Statiq.App.props",
-        "buildTransitive/netcoreapp3.1/Statiq.App.props",
+        "build/netcoreapp3.1/Statiq.App.targets",
+        "buildTransitive/netcoreapp3.1/Statiq.App.targets",
         "icon.png",
         "lib/netcoreapp3.1/Statiq.App.dll",
         "lib/netcoreapp3.1/Statiq.App.xml",
-        "statiq.app.1.0.0-beta.60.nupkg.sha512",
+        "statiq.app.1.0.0-beta.62.nupkg.sha512",
         "statiq.app.nuspec"
       ]
     },
-    "Statiq.Common/1.0.0-beta.60": {
-      "sha512": "tZpCI57PPdJ2NzfCq6dGpXxcecTkNxmK10mEva4De18BOHfnhNdFJd36e8+ElnNMFPm2pk6NK+95T7JDCTZcDw==",
+    "Statiq.Common/1.0.0-beta.62": {
+      "sha512": "B/icLlFydblwX2GUkGH0R4nAlwXNaf/Y5qntPtlMIxgzUmB57uP95edLh3nzOmx0LzlhYa208b1oTkIOYM/oJA==",
       "type": "package",
-      "path": "statiq.common/1.0.0-beta.60",
+      "path": "statiq.common/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7496,14 +7496,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Common.dll",
         "lib/netcoreapp3.1/Statiq.Common.xml",
-        "statiq.common.1.0.0-beta.60.nupkg.sha512",
+        "statiq.common.1.0.0-beta.62.nupkg.sha512",
         "statiq.common.nuspec"
       ]
     },
-    "Statiq.Core/1.0.0-beta.60": {
-      "sha512": "JX00g2BupWdnIn7ZXvsSh4CfHw7NX9OzEYocordRjLPPyy3NxwJv+p29x0vT1V61NTWt3NNpJnKBtpR4HkcNrA==",
+    "Statiq.Core/1.0.0-beta.62": {
+      "sha512": "Il48i6J//0XO1UXJyxdmThPFd2Zq1wuKBm4AzKbZpj+RhmFC6+1+l7yu2bwafKLn+064FyKs1EEsZRINBN8qSw==",
       "type": "package",
-      "path": "statiq.core/1.0.0-beta.60",
+      "path": "statiq.core/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7511,14 +7511,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Core.dll",
         "lib/netcoreapp3.1/Statiq.Core.xml",
-        "statiq.core.1.0.0-beta.60.nupkg.sha512",
+        "statiq.core.1.0.0-beta.62.nupkg.sha512",
         "statiq.core.nuspec"
       ]
     },
-    "Statiq.Feeds/1.0.0-beta.60": {
-      "sha512": "Ba2cpO4nEUDOiPr+bz4ZkEStW9XYADGNby87L9l1g4wTWBm4ppxMjQVBBSKTYd+5AuHREo3hlQR2llXFdF1kHw==",
+    "Statiq.Feeds/1.0.0-beta.62": {
+      "sha512": "9WuuJzLC9jXS99JlWML50MoTOCjjRMVFFQH4GvrPujO5DLd8LsO6fPgmibn3IT4X4nFE802o98nSKCH3rmZqXw==",
       "type": "package",
-      "path": "statiq.feeds/1.0.0-beta.60",
+      "path": "statiq.feeds/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7526,14 +7526,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Feeds.dll",
         "lib/netcoreapp3.1/Statiq.Feeds.xml",
-        "statiq.feeds.1.0.0-beta.60.nupkg.sha512",
+        "statiq.feeds.1.0.0-beta.62.nupkg.sha512",
         "statiq.feeds.nuspec"
       ]
     },
-    "Statiq.Handlebars/1.0.0-beta.60": {
-      "sha512": "fwkFpx9SXnFcKKBZzDXonoKoua+GRJUu7uw4BHWoeCM2vegMyi57bFvO+gS9yz5fmAG/eFGnIqUG3DCd7Mdo4g==",
+    "Statiq.Handlebars/1.0.0-beta.62": {
+      "sha512": "jsF4euyOHwm4ozsIi7gAuUwDpi37c5zOzgzJkdtjnnTm2XGihi0sZ9CLeyDmOz878hs/yJqHc/PVT2B5U53unQ==",
       "type": "package",
-      "path": "statiq.handlebars/1.0.0-beta.60",
+      "path": "statiq.handlebars/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7541,14 +7541,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Handlebars.dll",
         "lib/netcoreapp3.1/Statiq.Handlebars.xml",
-        "statiq.handlebars.1.0.0-beta.60.nupkg.sha512",
+        "statiq.handlebars.1.0.0-beta.62.nupkg.sha512",
         "statiq.handlebars.nuspec"
       ]
     },
-    "Statiq.Highlight/1.0.0-beta.60": {
-      "sha512": "ac3O586RvD2LBakwxKZ61GShROO8mMOHdkQ0Zs2gauQTe0I3HCWfOsA5/i86qpq5B0RMU0rbnNV0LBfCB8sQbQ==",
+    "Statiq.Highlight/1.0.0-beta.62": {
+      "sha512": "QgmvhqSin20uLnDlFk2RwTdN0pWa181wIs912j1mI++hSc3RjGvzCxtbnLLTFSGb91IRS42mJTsAKIeyPp8aAw==",
       "type": "package",
-      "path": "statiq.highlight/1.0.0-beta.60",
+      "path": "statiq.highlight/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7556,14 +7556,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Highlight.dll",
         "lib/netcoreapp3.1/Statiq.Highlight.xml",
-        "statiq.highlight.1.0.0-beta.60.nupkg.sha512",
+        "statiq.highlight.1.0.0-beta.62.nupkg.sha512",
         "statiq.highlight.nuspec"
       ]
     },
-    "Statiq.Less/1.0.0-beta.60": {
-      "sha512": "WNVSLoCjcZXRAQONEVxuUchOQJxLlEudAvftW1eXV0wA7OIwS/wNGVXHP/hKxupAnv9dAYYhnpN+eBMtexrepg==",
+    "Statiq.Less/1.0.0-beta.62": {
+      "sha512": "bGo6TaBY1yT0SjCPqk4BC1FjC7NECeBEVwReey4xvRApae0BAvaJ5vJMawzEiPyyi0YfZS+rcUZ4kWT0/4l+lQ==",
       "type": "package",
-      "path": "statiq.less/1.0.0-beta.60",
+      "path": "statiq.less/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7571,14 +7571,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Less.dll",
         "lib/netcoreapp3.1/Statiq.Less.xml",
-        "statiq.less.1.0.0-beta.60.nupkg.sha512",
+        "statiq.less.1.0.0-beta.62.nupkg.sha512",
         "statiq.less.nuspec"
       ]
     },
-    "Statiq.Lunr/1.0.0-beta.60": {
-      "sha512": "LbzhkP5B1W46fgfGCtRXRh/k702LSBaksvz/SuSDn1s0kiBGNsZhaIN/AYBvy+BLkX8gVIv+2TvVnTKXmMK29g==",
+    "Statiq.Lunr/1.0.0-beta.62": {
+      "sha512": "f+5N8MwHfuk9jVs8PiOrkes+8bDZnrI7qstU8FfytMghkFjcQPYO6DiAAIUSIgETWxXS0D1mV/Nfpgd+g3uoaA==",
       "type": "package",
-      "path": "statiq.lunr/1.0.0-beta.60",
+      "path": "statiq.lunr/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7586,14 +7586,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Lunr.dll",
         "lib/netcoreapp3.1/Statiq.Lunr.xml",
-        "statiq.lunr.1.0.0-beta.60.nupkg.sha512",
+        "statiq.lunr.1.0.0-beta.62.nupkg.sha512",
         "statiq.lunr.nuspec"
       ]
     },
-    "Statiq.Markdown/1.0.0-beta.60": {
-      "sha512": "FfoKUcRVJTNKCw1e6C6vSJ7V4S+4wnVyjIXThKXflRpOeJYopK2w5JmatELgmhkcmwTHc2L1YT385p7C52pA9w==",
+    "Statiq.Markdown/1.0.0-beta.62": {
+      "sha512": "czZlhg7P/Jz5qeKUUTVFBRs0prqrZ9Q5XaL4TG3CXK2PzkYxNYQbqNmPUKZMO54hZKV2p7frmcrGpVG/dxwnoQ==",
       "type": "package",
-      "path": "statiq.markdown/1.0.0-beta.60",
+      "path": "statiq.markdown/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7601,14 +7601,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Markdown.dll",
         "lib/netcoreapp3.1/Statiq.Markdown.xml",
-        "statiq.markdown.1.0.0-beta.60.nupkg.sha512",
+        "statiq.markdown.1.0.0-beta.62.nupkg.sha512",
         "statiq.markdown.nuspec"
       ]
     },
-    "Statiq.Minification/1.0.0-beta.60": {
-      "sha512": "YZPe/RHm3QQhxHcsRkc1H6K/sWAXSqSM17ZrajdDLleUHhlDNUbMJgwtr7x/BlkDQfcFa0v9c8OBGY2WGX+Pfw==",
+    "Statiq.Minification/1.0.0-beta.62": {
+      "sha512": "MISYwf59pa7wtoatfWBmnLVYbkZRLzXXfyxQrdxOn1Qc4WrblHb4ePmewJVwbSIkrBAA3y11hFECEjtnYITF4Q==",
       "type": "package",
-      "path": "statiq.minification/1.0.0-beta.60",
+      "path": "statiq.minification/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7616,14 +7616,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Minification.dll",
         "lib/netcoreapp3.1/Statiq.Minification.xml",
-        "statiq.minification.1.0.0-beta.60.nupkg.sha512",
+        "statiq.minification.1.0.0-beta.62.nupkg.sha512",
         "statiq.minification.nuspec"
       ]
     },
-    "Statiq.Razor/1.0.0-beta.60": {
-      "sha512": "dgoZk5UYvddK52ao5eH187KvC4FPulwuHUqTgc415F0oqLLZU64VB2Nml2zG7D0beACaFMppdSQ1Ry15tmOMOw==",
+    "Statiq.Razor/1.0.0-beta.62": {
+      "sha512": "a/U19OyGc/DbnLu0LgwPqmUQhHOkPp3ibOiFr0Vxfh+67CRSjaouAfcdGcmb5VUNPXPJJ5WyvVnIcIzkPOqpKA==",
       "type": "package",
-      "path": "statiq.razor/1.0.0-beta.60",
+      "path": "statiq.razor/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7631,14 +7631,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Razor.dll",
         "lib/netcoreapp3.1/Statiq.Razor.xml",
-        "statiq.razor.1.0.0-beta.60.nupkg.sha512",
+        "statiq.razor.1.0.0-beta.62.nupkg.sha512",
         "statiq.razor.nuspec"
       ]
     },
-    "Statiq.Sass/1.0.0-beta.60": {
-      "sha512": "iKG+tB6njf76h4XvP0Bf7ursrKZ7QdKgF+lSJdA2vQvpu3G7AMJeOvkkL7exJnHxxMRkOrHLrZ3GdnfZ2pM26g==",
+    "Statiq.Sass/1.0.0-beta.62": {
+      "sha512": "OswkaTVJ4enIq1QZ8s16ulsJS+HA9mksKhchcwCj/DHnpd/LLE6RZ756DKlFPCCZYPu+22gSRQaLqEif795IPA==",
       "type": "package",
-      "path": "statiq.sass/1.0.0-beta.60",
+      "path": "statiq.sass/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7646,14 +7646,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Sass.dll",
         "lib/netcoreapp3.1/Statiq.Sass.xml",
-        "statiq.sass.1.0.0-beta.60.nupkg.sha512",
+        "statiq.sass.1.0.0-beta.62.nupkg.sha512",
         "statiq.sass.nuspec"
       ]
     },
-    "Statiq.Testing/1.0.0-beta.60": {
-      "sha512": "w7hyoBhmr8aNEnhM0oRP5McZOo3xHZGYg216qewa0WCdwga+QXO/NG9ms+H+/Xhj9cVE3+8Rj9np++GQI506VA==",
+    "Statiq.Testing/1.0.0-beta.62": {
+      "sha512": "ps8bVYKlUpJmGCZPR4SwXCwCoWFtuDLSAkhP8bEzeYHVpiJf4UGJ10MW4sN2nZmVchI/GzpqGx55byxoaIF5IQ==",
       "type": "package",
-      "path": "statiq.testing/1.0.0-beta.60",
+      "path": "statiq.testing/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7661,31 +7661,31 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Testing.dll",
         "lib/netcoreapp3.1/Statiq.Testing.xml",
-        "statiq.testing.1.0.0-beta.60.nupkg.sha512",
+        "statiq.testing.1.0.0-beta.62.nupkg.sha512",
         "statiq.testing.nuspec"
       ]
     },
-    "Statiq.Web/1.0.0-beta.47": {
-      "sha512": "HC/2APakxWuP8uilo/879QTLDjy28o3XBH1Ejmc4OMCiywat2jTNRo9G9ck++gkloN4GEdWWGFEm9A/DsCpRZg==",
+    "Statiq.Web/1.0.0-beta.49": {
+      "sha512": "lE6OE1O80psyy8IxeuqClb/I7rV2aApXqVxI8minOiohovLN/w17jy7d0C0/lH9C1YShCEdo3PVY2Xvg+lPrTA==",
       "type": "package",
-      "path": "statiq.web/1.0.0-beta.47",
+      "path": "statiq.web/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
-        "build/netcoreapp3.1/Statiq.Web.props",
-        "buildTransitive/netcoreapp3.1/Statiq.Web.props",
+        "build/netcoreapp3.1/Statiq.Web.targets",
+        "buildTransitive/netcoreapp3.1/Statiq.Web.targets",
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.dll",
         "lib/netcoreapp3.1/Statiq.Web.xml",
-        "statiq.web.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.nuspec"
       ]
     },
-    "Statiq.Web.Aws/1.0.0-beta.47": {
-      "sha512": "qhp2Yo60HgSJD/rQvuzDaUwR6gLnczUrTF3hTglESLAwe2aaYEL7X3a4FtlR8WN89kjTpAsuweQnNaczKFRvAw==",
+    "Statiq.Web.Aws/1.0.0-beta.49": {
+      "sha512": "9c76VFFcuT2yZjBmWW4aKESVjJUuGFDLObllTmrSfA8xk4YmdndDenK9IxbMrlVn687Y8t5c53evgqI0dcoF4A==",
       "type": "package",
-      "path": "statiq.web.aws/1.0.0-beta.47",
+      "path": "statiq.web.aws/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7693,14 +7693,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.Aws.dll",
         "lib/netcoreapp3.1/Statiq.Web.Aws.xml",
-        "statiq.web.aws.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.aws.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.aws.nuspec"
       ]
     },
-    "Statiq.Web.Azure/1.0.0-beta.47": {
-      "sha512": "sQK5VjQClz5CIWon+8VVxIcp2XMS3rW3Eq7L5p2TSc0woPZi0BiX6+EqOsQpJz7hG7o8MiG8WwIahVu1vEM+CA==",
+    "Statiq.Web.Azure/1.0.0-beta.49": {
+      "sha512": "fKmV41HPzJTVRslkur8ekeLQwSEHGweXmX9nW8P8M0VgjBuc0uE0CU9xA/U+M/XKqplpdoHBxYMJZSD1F2u5zA==",
       "type": "package",
-      "path": "statiq.web.azure/1.0.0-beta.47",
+      "path": "statiq.web.azure/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7708,14 +7708,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.Azure.dll",
         "lib/netcoreapp3.1/Statiq.Web.Azure.xml",
-        "statiq.web.azure.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.azure.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.azure.nuspec"
       ]
     },
-    "Statiq.Web.GitHub/1.0.0-beta.47": {
-      "sha512": "ZPKGreP3kDl+FYoo9biE+JLAyXs8ifoz6Jmd5seaA1fv1eDpjc90mK1p6K9VAKjRgUx3re5Xneb8SaRTncXazg==",
+    "Statiq.Web.GitHub/1.0.0-beta.49": {
+      "sha512": "m65ktdZkvDfXleCNrUsZB0Bs+t+W0/RwoA3m6XpyrUJRWCe4rZqzceqDSwhllZCfZBK3NoHz3kDC0H/AKF7BWQ==",
       "type": "package",
-      "path": "statiq.web.github/1.0.0-beta.47",
+      "path": "statiq.web.github/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7723,14 +7723,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.GitHub.dll",
         "lib/netcoreapp3.1/Statiq.Web.GitHub.xml",
-        "statiq.web.github.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.github.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.github.nuspec"
       ]
     },
-    "Statiq.Web.Hosting/1.0.0-beta.47": {
-      "sha512": "jjbzc4m2XvJEFJdGjiqs4DOrmUYf5dDQNLyH4XIaQX7mFEEBqA/lBqiD1k6N/H0c15lT1yGRdceac7qcHB8Isg==",
+    "Statiq.Web.Hosting/1.0.0-beta.49": {
+      "sha512": "yyyhxMlprZ4HtWMTvaHBCWUFrYe7vsZJnkPqmEGdKDHAciCbJ+QtKAA8pij57SIDFx+3uux5KhgXFfhCrm71SA==",
       "type": "package",
-      "path": "statiq.web.hosting/1.0.0-beta.47",
+      "path": "statiq.web.hosting/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7738,14 +7738,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.Hosting.dll",
         "lib/netcoreapp3.1/Statiq.Web.Hosting.xml",
-        "statiq.web.hosting.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.hosting.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.hosting.nuspec"
       ]
     },
-    "Statiq.Web.Netlify/1.0.0-beta.47": {
-      "sha512": "xwtyUf4AbqpbzjGyYRlB1Qcyr1nNyfd4xtPlVwS/zQWD8/Nwm3HLf41JSqO/PhTxqtCeq/YY2J5OyJPPatYq9w==",
+    "Statiq.Web.Netlify/1.0.0-beta.49": {
+      "sha512": "VSRgYXBsQQpTqAiEohqjRJsIXLTcxSI1vqb0wOcOi4ITrIvqEDiDSC6vZGx4bQ5QVMoe1O/F2H7kstV7yTE7DA==",
       "type": "package",
-      "path": "statiq.web.netlify/1.0.0-beta.47",
+      "path": "statiq.web.netlify/1.0.0-beta.49",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7753,14 +7753,14 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Web.Netlify.dll",
         "lib/netcoreapp3.1/Statiq.Web.Netlify.xml",
-        "statiq.web.netlify.1.0.0-beta.47.nupkg.sha512",
+        "statiq.web.netlify.1.0.0-beta.49.nupkg.sha512",
         "statiq.web.netlify.nuspec"
       ]
     },
-    "Statiq.Yaml/1.0.0-beta.60": {
-      "sha512": "+XZb9jZj6jNsogXSLvbECG1Bkk/pISAuow8da5UDK9TSMAVhq7K4YoMdYZC2+QzyPQsRqb2nCuTeVY8BmE2hFw==",
+    "Statiq.Yaml/1.0.0-beta.62": {
+      "sha512": "3SbmYyL/ePG9KzOlFgfusMC5hzJ30ih5hKGoLk1m1mtqmMkljHOf1v1P0hgbv8gkzkS0RS18DYKMvcS0UJWMMw==",
       "type": "package",
-      "path": "statiq.yaml/1.0.0-beta.60",
+      "path": "statiq.yaml/1.0.0-beta.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7768,7 +7768,7 @@
         "icon.png",
         "lib/netcoreapp3.1/Statiq.Yaml.dll",
         "lib/netcoreapp3.1/Statiq.Yaml.xml",
-        "statiq.yaml.1.0.0-beta.60.nupkg.sha512",
+        "statiq.yaml.1.0.0-beta.62.nupkg.sha512",
         "statiq.yaml.nuspec"
       ]
     },
@@ -12516,7 +12516,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Kontent.Statiq >= 2.0.0-beta0014",
-      "Statiq.Web >= 1.0.0-beta.47"
+      "Statiq.Web >= 1.0.0-beta.49"
     ]
   },
   "packageFolders": {
@@ -12525,11 +12525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\StatiqWithHeadless.csproj",
+      "projectUniqueName": "c:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\StatiqWithHeadless.csproj",
       "projectName": "StatiqWithHeadless",
-      "projectPath": "C:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\StatiqWithHeadless.csproj",
+      "projectPath": "c:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\StatiqWithHeadless.csproj",
       "packagesPath": "C:\\Users\\bmckeiver\\.nuget\\packages\\",
-      "outputPath": "C:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\obj\\",
+      "outputPath": "c:\\ClientProjects\\StatiqKontentAzureStaticWebAppDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bmckeiver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12564,7 +12564,7 @@
           },
           "Statiq.Web": {
             "target": "Package",
-            "version": "[1.0.0-beta.47, )"
+            "version": "[1.0.0-beta.49, )"
           }
         },
         "imports": [

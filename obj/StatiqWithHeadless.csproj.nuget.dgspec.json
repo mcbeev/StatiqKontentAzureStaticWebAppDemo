@@ -46,7 +46,7 @@
             },
             "Statiq.Web": {
               "target": "Package",
-              "version": "[1.0.0-beta.47, )"
+              "version": "[1.0.0-beta.49, )"
             }
           },
           "imports": [
